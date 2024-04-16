@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="prodtemplate.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="logo.jpg" alt="Vegetable Market Logo" class="logo">
+        </a>
+        <h1>Vegetable Market</h1>
+        <p>Contact Us: <a href="lastephraim@gmail.com" class="email">lastephraim@gmail.com</a></p>
+    </header>
+    <div class="container">
+        <div class="product">
+            <a href="garlic.html">
+                <img src="garlic.jpg" alt="Garlic">
+                <h2>Garlic</h2>
+            </a>
+            <p>Price: $1.50 per kg</p>
+            <p>Fresh and aromatic garlic straight form the farm!</p>
+            <video width="320" height="240" controls>
+                <source src="garlic_video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="product">
+            <a href="potato.html">
+                <img src="potato.jpg" alt="Potato">
+                <h2>Potato</h2>
+            </a>
+            <p>Price: $0.75 per kg</p>
+            <p>Fresh taders!</p>
+            <video width="320" height="240" controls>
+                <source src="potato_video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="product">
+            <a href="ginger.html">
+                <img src="ginger.jpg" alt="Ginger">
+                <h2>Ginger</h2>
+            </a>
+            <p>Price: $2.00 per kg</p>
+            <p>Spicy Redheads!</p>
+            <video width="320" height="240" controls>
+                <source src="ginger_video.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="subscribe-form">
+            <form action="submit_email.php" method="POST">
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
